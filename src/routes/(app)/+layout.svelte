@@ -17,7 +17,7 @@
     <div class="px-6 pt-6 lg:px-8">
       <nav class="flex items-center justify-between" aria-label="Global">
         <div class="flex lg:flex-1">
-            <a href="/" class="-m-1.5 p-1.5">
+            <a href="/home" class="-m-1.5 p-1.5">
                 <span class="sr-only">Japanese training</span>
                 <img class="h-20" src={logo} alt="japanese_training">
             </a>
@@ -45,8 +45,7 @@
       </form>
       &nbsp;&nbsp;&nbsp;
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="/home" class="text-sm font-semibold leading-6 text-gray-900">Эхлэл</a>
-
+            
             <a href="/lesson" class="text-sm font-semibold leading-6 text-gray-900">Багц хичээл</a>
 
             <a href="/material" class="text-sm font-semibold leading-6 text-gray-900">JLPT материал</a>
@@ -64,7 +63,7 @@
       <div class="dialog" aria-modal="true">
         <div class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
             <div class="flex items-center justify-between">
-                <a href="/" class="-m-1.5 p-1.5">
+                <a href="/home" class="-m-1.5 p-1.5">
                     <span class="sr-only">Japanese training</span>
                     <img class="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
                   </a>
@@ -78,8 +77,7 @@
             <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                     <div class="space-y-2 py-6">
-                        <a href="/home" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Эхлэл</a>
-
+                        
                         <a href="/lesson" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Багц хичээл</a>
           
                         <a href="/material" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">JLPT материал</a>
